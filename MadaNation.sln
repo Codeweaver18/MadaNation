@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadaNation.api", "MadaNation.api\MadaNation.api.csproj", "{163C697A-2DE6-47CA-8680-79A96D1D1D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadaNation.core", "MadaNation.core\MadaNation.core.csproj", "{4F61781B-BCB3-478E-9B02-3EE1AEC838C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadaNation.DataAccess", "MadaNation.DataAccess\MadaNation.DataAccess.csproj", "{54E49858-B0A3-4514-B7AF-69F7AB933CE4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{163C697A-2DE6-47CA-8680-79A96D1D1D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163C697A-2DE6-47CA-8680-79A96D1D1D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163C697A-2DE6-47CA-8680-79A96D1D1D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163C697A-2DE6-47CA-8680-79A96D1D1D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F61781B-BCB3-478E-9B02-3EE1AEC838C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F61781B-BCB3-478E-9B02-3EE1AEC838C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F61781B-BCB3-478E-9B02-3EE1AEC838C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F61781B-BCB3-478E-9B02-3EE1AEC838C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E49858-B0A3-4514-B7AF-69F7AB933CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E49858-B0A3-4514-B7AF-69F7AB933CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E49858-B0A3-4514-B7AF-69F7AB933CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E49858-B0A3-4514-B7AF-69F7AB933CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
